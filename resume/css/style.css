@@ -1,0 +1,586 @@
+@charset "utf-8";
+.nav {
+	position: fixed;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -157px;
+}
+.nav a,
+.nav li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.nav li {
+	margin-right: 50px;
+}
+.nav a {
+	background: #fff;
+	color: #4BBFC3
+}
+.nav .active a{
+	background: #333;
+}
+.section { 
+	overflow: hidden;
+}
+@font-face {
+		font-family: "xionglingbin";
+		src: local("xionglingbin"),
+			 url("../font-style/STCAIYUN.TTF") format("truetype")
+	}
+/********************个人信息star********************/
+.information {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/3.png");
+}
+.information-main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 675px;
+	height: 322px;
+	margin: -161px 0 0 -337px;
+	text-align: left;
+	color: #fff;
+}
+.main-head {
+	overflow: hidden;
+	float: left;
+	width: 201px;
+	height: 201px;
+	border-radius: 50%; 
+	-webkit-box-shadow: 2px 2px 2px rgb(255,255,255),
+				2px -2px 2px rgb(255,255,255),
+				-2px 2px 2px rgb(255,255,255),
+				-2px -2px 2px rgb(255,255,255);
+	-ms-box-shadow: 2px 2px 2px rgb(255,255,255),
+					2px -2px 2px rgb(255,255,255),
+					-2px 2px 2px rgb(255,255,255),
+					-2px -2px 2px rgb(255,255,255);
+	-o-box-shadow: 2px 2px 2px rgb(255,255,255),
+				2px -2px 2px rgb(255,255,255),
+				-2px 2px 2px rgb(255,255,255),
+				-2px -2px 2px rgb(255,255,255);
+	-moz-box-shadow: 2px 2px 2px rgb(255,255,255),
+				2px -2px 2px rgb(255,255,255),
+				-2px 2px 2px rgb(255,255,255),
+				-2px -2px 2px rgb(255,255,255);
+
+}
+.main-head img {
+	display: block;
+	width: 201px;
+	height: 201px;
+}
+.main-name {
+	float: left;
+	height: 201px;
+	padding-left: 50px;
+}
+.main-name h3 {
+	font-size: 14px;
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+.main-name h1 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.main-name h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.main-information {
+	float: left;
+	width: 674px;
+	font-size: 14px;
+	line-height: 27px;
+	margin-top: 40px;
+}
+.main-information p {
+	float: left;
+	width: 201px;
+	margin-right: 23px;
+}
+/********************个人信息end********************/
+/**********************教育背景star****************/
+.education {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+.text {
+	position: relative;
+	top: 20px;
+	left: 23px;
+	width: 200px;
+	height: 146px;
+	font-family: "xionglingbin";
+	font-size: 18px;
+	background:url("../images/text.png") no-repeat;
+	background-size: contain;
+	-webkit-transform: rotate(-38deg)
+}
+.text em {
+	float: left;
+	display: block;
+	width: 50%;
+	height:245px;
+	border-right: 2px dashed black;
+}
+.text-em {
+	position: absolute;
+	top: 428px;
+}
+.text span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	width: 100px;
+	padding-top: 4px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+/***********************教育背景end**************************/
+/***********************专业技能star************************/
+.skills {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/2.jpg");
+}
+.skills dl {
+	position: absolute;
+	width: 250px;
+	height: 243px;
+	margin-bottom: 10px;
+}
+.skills-one {
+	top: -280px;
+	left: -280px;
+}
+.skills-two {
+	top: 0px;
+	left: -280px;
+}
+.skills-three {
+	top: 1000px;
+	left: -280px;
+}
+.skills-four {
+	top: 1000px;
+	left: 300px;
+}
+.skills-five {
+	top: 1000px;
+	left: 1000px;
+}
+.skills-six {
+	top: 1000px;
+	left: 800px;
+}
+.skills dl dt {
+	width: 250px;
+	height: 100px;
+}
+.skills dl dt img {
+	display: block;
+	width: 85px;
+	height: 85px;
+	margin: 0 auto;
+}
+.skills dl dd {
+	overflow: hidden;
+	width: 220px;
+	height: 105px;
+	padding: 20px 10px 10px 10px;
+	border-radius: 5%;
+	background: #aea6a6;
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 16px;
+}
+/***********************专业技能end************************/
+/************************项目经验star***********************/
+.experience {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.experience-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 90%;
+	margin: auto;
+}
+.tabtit {
+	width: 100%;
+	height: 50px;
+}
+#tit .select {
+	position: absolute;
+	top: -30px;
+	-webkit-transform: rotate(0deg);
+}
+.tabtit span {
+	position: absolute;
+	top: 0;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.tabtit-first {
+	left: 0px;
+	-webkit-transform : rotate(-10deg);
+}
+.tabtit-two {
+	left: 36%;
+	-webkit-transform : rotate(5deg);
+}
+.tabtit-three {
+	right: 0;
+	-webkit-transform : rotate(8deg);
+}
+.tabcon {
+	position: absolute;
+	top: 94px;
+	left: 0;
+	right: 0;
+	right: 0;
+	width: 100%;
+	height: 416px;
+	margin: auto;
+}
+.tabcon div {
+	position: relative;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.tabcon .tabconshow {
+	display: block;
+}
+.tabconshow .tabconcom{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	width: 490px;
+	margin: auto;
+	background: url("../images/computer.png") no-repeat;
+	background-size: cover;
+}
+.tabconshow .tabconbox {
+	overflow: hidden;
+	display: block;
+	width: 450px;
+	margin-left: 21px;
+}
+.tabconshow .tabconcon {
+	display: block;
+	width: 2700px;
+	height: 300px;
+	margin-top: 20px;
+}
+.tabconshow .tabconcon img {
+	float: left;
+	width: 450px;
+	height: 280px;
+}
+.tabconshow span {
+	position: absolute;
+	top: 250px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 38px;
+	z-index: 1000;
+	cursor: pointer;
+}
+.btn-left {
+	left: 30px;
+	background: url("../images/left.png") center center no-repeat;
+}
+.btn-right {
+	right: 30px;
+	background: url("../images/right.png") center center no-repeat;
+}
+.html-tabconboxcom {
+	display: block;
+	width: 490px;
+	background: url("../images/computer.png") no-repeat;
+	background-size: cover;
+}
+/************************项目经验end***********************/
+/************************项目展示star***********************/
+.projectsshow {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/1.jpg");
+}
+.show {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 900px;
+	height: 600px;
+	margin: auto auto;
+	background: white;
+	box-shadow: 0 0 10px 3px #A8A8A8;
+}
+.exhibit {
+	float: left;
+	width: 450px;
+	height: 600px;
+}
+.exhibit-head {
+	width: 450px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 28px;
+	color: #1b7dc1;
+	background: url("../images/2.png");
+}
+.exhibit-img {
+	width: 450px;
+	height: 500px;
+}
+.exhibit-img img {
+	display: block;
+	width: 450px;
+	height: 500px;
+}
+.describearea {
+	float: left;
+	width: 450px;
+	height: 600px;
+}
+.describearea-head {
+	width: 450px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 28px;
+	background: url("../images/2.png");
+}
+.describearea-body {
+	width: 450px;
+	height: 500px;
+}
+.describearea-body h1 {
+	width: 430px;
+	height: 50px;
+	padding-left: 20px;
+	line-height: 50px;
+	color: #878787;
+	font-size: 18px;
+}
+.describearea-body p {
+	overflow: hidden;
+	width: 390px;
+	height: 200px;
+	text-indent: 2em;
+	color: #878787;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	line-height: 40px;
+}
+/************************项目展示end***********************/
+
+
+
+/*切换pag*/
+body, html {
+	height: 100%;
+	background: #0f0504;
+}
+.tabconshow .view {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 605px;
+	-webkit-transform-style: preserve-3d;
+}
+.viewbac2 {
+	/*background: url("../images/html_bac2.jpg") no-repeat center 0 / 100%; 	*/
+}
+.tabconshow .screen {
+	display: block;
+	position: absolute;
+	top: -50px;
+	width: 100%;
+	height: 513px;
+	background: url("../images/bac.png") no-repeat center 0;
+	background-size: contain;
+	opacity: 0.6;
+}
+.tabconshow .box {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 416px;
+	overflow: hidden;
+	-webkit-perspective: 1600px;
+	-webkit-transform-style: preserve-3d;
+	z-index: 10;
+}
+
+.tabconshow .wrapHide, .tabconshow .wrapShow, .tabconshow .wrap {
+	display: block;
+	position: absolute;
+	top: 80px;
+	width: 510px;
+	height: 340px;
+	text-align: center;
+	-webkit-transform-style:preserve-3d;
+}
+.wrap {
+	left: 105%;	
+	-webkit-transform-origin: left;
+	-webkit-transform: translateZ(100px) rotateY(-80deg);
+}
+.wrapShow {
+	left: 50%;
+	margin-left: -255px;
+	-webkit-transform: rotateY(0deg);
+}
+.wrapHide {
+	left: 0%;
+	margin-left: -520px;
+	-webkit-transform-origin: right;
+	-webkit-transform: translateZ(100px) rotateY(80deg);
+}
+.wrap h1, .wrapNow h1 {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 60px;
+	color: #fff;
+}
+.wrap p, .wrapNow p {
+	overflow: hidden;
+	height: 60px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	color: #fff;
+}
+.wrap img {
+	display: block;
+	width: 180px;
+	height: 180px;
+	margin: 33px 162px;
+	padding: 3px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+}
+.tabconshow .navpag {
+	display: block;
+	position: relative;
+	top: -165px;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	z-index: 99;
+}
+.navpag ul {
+	width: 500px;
+	height: 40px;
+	margin: 0 auto;
+}
+.navpag li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+}
+.nav .active {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+/*时间轴*/
+.timeline {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 900px;
+	height: 600px;
+}
+.educationbox {
+	float: left;
+	overflow:hidden;
+	width: 600px;
+	height: 600px;
+} 
+.educationcon {
+	width: 600px;
+	height: 4800px;
+}
+.educationcon .con {
+	float: left;
+	width: 600px;
+	height: 600px;
+}
+.sub {
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+.sub a {
+	display: block;
+	width: 50px;
+	text-decoration: none;
+	color: black;
+}
+.sub-tit  li {
+	margin-top: 5px;
+}
+.sub-tit ul {
+	display: none;
+}
+.sub-tit .one {
+	display: block;
+}
+.sub-tit ul li {
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 10px;
+}
+.sub-tit ul li a {
+	color: black;
+}
